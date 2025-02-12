@@ -1,28 +1,46 @@
-# ENPM661: Project-5
 Implementation and Simulation of Informed RRT* algorithm
 
-## 1. Team:
+## Project Overview
 
-|     UID     |  Directory ID  |            Name            |
-|    :---:    | :------------: |           :----:           |
-|  120425554  |     rraj27     |         Rishie Raj         |
-|  120305085  |      uthu      |  Uthappa Suresh Madettira  |
+This project implements the Informed RRT* path planning algorithm and simulates the generated path using TurtleBot3 in the Gazebo environment. The algorithm efficiently finds an optimal path between a start and a goal position while avoiding obstacles.
 
-## 2. Description:
-The goal of the project is to implement Informed RRT* algorithm and simulate the results in Gazebo using Turtlebot3 robot.
-## 3. Contents
+## Languages & Tech Stack
+
+- Programming Language: **Python**
+
+- Robotics Framework: **ROS2**
+  
+- Simulation Environment: **Gazebo**
+  
+- Visualization: **Matplotlib**
+
+- Libraries: **numpy, matplotlib, rclpy, geometry_msgs, nav_msgs**
+
+## Features
+
+- Implements the Informed RRT* algorithm for path planning.
+
+- Detects and avoids obstacles within a defined map.
+
+- Simulates path execution using TurtleBot3 in Gazebo.
+
+- Uses ROS2 for robot control and navigation.
+
+- Visualizes the planned path using Matplotlib.
+
+##  Contents
 
  - `informed_rrt` : This folder contains the source code for the implementation and simulation of Informed RRT* algorithm.
 
  - `README.md` : markdown file containing instructions and details.
 
-## 4. How to Use:
+##  How to Use:
 
 To start, please download the .zip file and extract it to retrive the files.
 
 Please follow the following steps to implement and simulate the algorithm in a local system:
 
-   - In the `informed_rrt` folder, you will find the ROS package that contains the *competition_world* launch files along with the python script `informed_rrtstar.py` and `rrtstar.py` to implement the motion planning and turtlebot maneuvers in Gazebo. The following steps are to be followed:
+   - In the `informed_rrt` folder, you will find the ROS package that contains the *competition_world* launch files along with the python script `informed_rrtstar.py` and `rrtstar.py` to implement the path planning and turtlebot maneuvers in Gazebo. The following steps are to be followed:
 
       - Create a workspace and add the package retrieved from the above folder to the `src` folder in the workspace.
       - Now, open the workspace in a terminal and build it using the following code:
