@@ -1,4 +1,4 @@
-Implementation and Simulation of Informed RRT* algorithm
+## Robot Path Planning using Informed RRT* Algorithm and Simulation using Gazebo
 
 ## Project Overview
 
