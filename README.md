@@ -1,4 +1,4 @@
-## Robot Path Planning using Informed RRT* Algorithm and Simulation using Gazebo
+## Optimized Path Planning for Warehouse Robots Using Informed RRT* and ROS2
 
 ## Project Overview
 
