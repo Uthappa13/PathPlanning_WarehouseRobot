@@ -1,4 +1,4 @@
-## Optimized Path Planning for Warehouse Robots Using Informed RRT* and ROS2
+## Path Planning for Warehouse Robots Using Informed RRT* and ROS2
 
 ## Project Overview
 
